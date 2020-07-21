@@ -9,12 +9,11 @@ h1 {
 }
 
 body {
-	background-image: url('model.jpg');
+	background-image: url('../images/model.jpg');
 	background-size: cover;
 }
 .container {
 	width: 100%;
-	background-color: orange;
 }
 
 .col-lg-4 {
@@ -24,11 +23,23 @@ body {
 	padding: 10px;
 }
 
-.box1 {
+.box1, .box2, .box3 {
 	height: 200px;
 	background-color: #DEDEDE;
 	border: 1px solid black;
 	overflow: auto;
+}
+.box1 {
+	background-image: url('../images/burger.jpg');
+	background-size: 100%;
+}
+.box2 {
+	background-image: url('../images/pizza.jpeg');
+	background-size: 100%;
+}
+.box3 {
+	background-image: url('../images/chilli_potato.jpg');
+	background-size: 100%;
 }
 
 .dishName1, .dishName2, .dishName3 {
@@ -46,11 +57,11 @@ body {
 .dishName3 {background-color: purple;}
 p {
 	clear: both;
-	color: brown;
+	color: white;
 	font-size: 115%;
+	font-weight: bold;
 	padding: 5px 10px 5px 10px;
-	text-shadow: 1px 1px black;
-	overflow: auto;
+	text-shadow: 1px 1px brown;
 }
 
 @media(min-width: 992px) {
