@@ -9,7 +9,7 @@ h1 {
 }
 
 body {
-	background : url(images/model.jpg) no-repeat;
+	background : url('images/model.jpg') no-repeat;
 	background-size: cover;
 }
 .container {
@@ -30,15 +30,15 @@ body {
 	overflow: auto;
 }
 .box1 {
-	background-image: url('https://github.com/ParasModi-10/Coursera-Module2-Solution/tree/master/images/burger.jpg');
+	background-image: url('images/burger.jpg');
 	background-size: 100%;
 }
 .box2 {
-	background-image: url('https://github.com/ParasModi-10/Coursera-Module2-Solution/tree/master/images/pizza.jpeg');
+	background-image: url('images/pizza.jpeg');
 	background-size: 100%;
 }
 .box3 {
-	background-image: url('https://github.com/ParasModi-10/Coursera-Module2-Solution/tree/master/images/chilli_potato.jpg');
+	background-image: url('images/chilli_potato.jpg');
 	background-size: 100%;
 }
 
