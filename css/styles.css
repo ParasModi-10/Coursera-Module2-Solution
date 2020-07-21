@@ -9,7 +9,7 @@ h1 {
 }
 
 body {
-	background-image: url('https://github.com/ParasModi-10/Coursera-Module2-Solution/blob/master/images/model.jpg');
+	background-image: url("https://github.com/ParasModi-10/Coursera-Module2-Solution/blob/master/images/model.jpg");
 	background-size: cover;
 }
 .container {
